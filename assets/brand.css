@@ -1,0 +1,28 @@
+
+:root{
+  --imuna-primary:#0d6efd;  /* biru enterprise */
+  --imuna-accent:#20c997;   /* teal */
+  --imuna-dark:#0b2e4a;
+}
+.navbar-dark{ background: linear-gradient(120deg,var(--imuna-dark), var(--imuna-primary)) !important; }
+.hero{
+  background: linear-gradient(120deg,var(--imuna-primary), var(--imuna-accent));
+  color:#fff;
+  padding:70px 30px;
+}
+.badge-imuna{ background: var(--imuna-accent); }
+.card-header.imuna{
+  background: rgba(13,110,253,.08);
+  border-bottom:1px solid rgba(13,110,253,.15);
+  font-weight:600;
+}
+.kpi{
+  border-left:4px solid var(--imuna-primary);
+  padding-left:14px;
+}
+.flow-step{
+  border-left:3px solid var(--imuna-primary);
+  padding-left:16px;
+  margin: 10px 0 18px 0;
+}
+.mockup-card a{ text-decoration:none; }
